@@ -1,7 +1,7 @@
 {
     "version": "1.0",
-	"type": "privileged",
-	"name": "Coduri Poștale",
+	"type": "web",
+	"name": "Cod Poștal",
     "description": "Aplicație pentru căutarea codurilor poștale după adresa din România!",
     "launch_path": "/index.html",
     "icons": {
@@ -10,6 +10,7 @@
         "48": "/images/icon_048.png",
         "60": "/images/icon_060.png",
 		"90": "/images/icon_060.png",
+		"120": "/images/icon_128.png",
         "128": "/images/icon_128.png"
     },
 	"developer": {
