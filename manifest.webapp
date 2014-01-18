@@ -1,21 +1,22 @@
 {
-    "version":"1.0",
+    "version": "1.0",
+	"type": "privileged",
 	"name": "Coduri Poștale",
-    "description": "Aplicație pentru căutarea adreselor după Codurile Poștale din România!",
+    "description": "Aplicație pentru căutarea codurilor poștale după adresa din România!",
     "launch_path": "/index.html",
     "icons": {
         "16": "/images/icon_016.png",
         "32": "/images/icon_032.png",
         "48": "/images/icon_048.png",
         "60": "/images/icon_060.png",
+		"90": "/images/icon_060.png",
         "128": "/images/icon_128.png"
     },
 	"developer": {
-        "name": "Vlad Roșca, Serban Ciprian Toma",
+        "name": "Vlad Roșca, Șerban Ciprian Toma",
         "url": "http://www.ceata.org/"
     },
     "default_locale": "ro",
-	"type": "privileged",
     "permissions": {
         "systemXHR": { "description": "Required to make Ajax Calls over the Network" }
     }
