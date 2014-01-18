@@ -15,20 +15,15 @@
 <div data-role="page" id="home">
 	<div data-role="header" data-position="fixed">
 		<h3>Coduri Poștale</h3>
-		<a href="#" data-icon="gear" class="ui-btn-right">Options</a>
+		<!--<a href="#" data-icon="gear" class="ui-btn-right">Options</a>-->
 		<div data-role="navbar">
 			<ul>
-				<li><a id="zipcodeTab" href="#zipcode" class="ui-btn-active">Coduri Postale</a></li>
-				<li><a id="addressTab" href="#address">Adrese</a></li>
+				<li><a id="addressTab" href="#" class="ui-btn-active">Adrese</a></li>
+				<li><a id="zipcodeTab" href="#">Coduri Postale</a></li>
 			</ul>
 		</div>
 	</div><!-- /header -->
-	<div data-role="content" id="zipcodeContainer">
-		<input type="search" id="codPostal" value="" placeholder="Cod Poștal" autofocus />
-		<a href="#" id="btnSearch" data-role="button">Caută</a>
-		<div id="linebreak">&nbsp;</div>
-		<ul data-role="listview" id="searchResults"></ul>
-	</div><!-- /content -->
+
 	<div data-role="content" id="addressContainer">
 		<input type="search" id="location" value="" placeholder="Localitate" autofocus />
 		<input type="search" id="address" value="" placeholder="Strada" />
@@ -36,6 +31,14 @@
 		<div id="linebreak">&nbsp;</div>
 		<ul data-role="listview" id="searchResultsAddress"></ul>
 	</div><!-- /content -->
+
+	<div data-role="content" id="zipcodeContainer">
+		<input type="search" id="codPostal" value="" placeholder="Cod Poștal" autofocus />
+		<a href="#" id="btnSearch" data-role="button">Caută</a>
+		<div id="linebreak">&nbsp;</div>
+		<ul data-role="listview" id="searchResultsCode"></ul>
+	</div><!-- /content -->
+
 	<div class="center" data-role="footer" data-position="fixed">
 		<a href="http://openapi.ro" target="_blank" class="ui-link">
 			<img src="http://openapi.ro/oa-logo.png" width="82" height="38" alt="OpenAPI.ro - servicii web pentru România"/>

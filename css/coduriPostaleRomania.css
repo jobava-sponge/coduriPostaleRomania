@@ -1,10 +1,9 @@
 .center {
 	text-align: center;
 }
-#addressContainer {
+#zipcodeContainer {
 	display:none;
 }
-
 .borderBottom {
 	border-bottom: 2px solid #000000;
 }
